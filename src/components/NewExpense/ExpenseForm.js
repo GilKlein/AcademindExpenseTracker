@@ -4,6 +4,8 @@ import './ExpenseForm.css';
 
 const ExpenseForm = () => {
 
+    // Commenting out as git example
+
     // const [enteredTitle, setEnteredTitle] = useState("");
     // const [enteredAmount, setEnteredAmount] = useState("");
     // const [enteredDate, setEnteredDate] = useState("");
