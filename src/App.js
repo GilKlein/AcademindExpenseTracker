@@ -6,6 +6,8 @@ import Expenses from "./components/Expenses/Expenses";
 // Main App function
 
 const App = () => {
+
+	// Data
 	const expenses = [
 		{
 			id: "e1",
@@ -28,11 +30,13 @@ const App = () => {
 		},
 	];
 
+	// Logic
 	const addExpenseHandler = (expense) => {
 		console.log("In App.js");
 		console.log(expense);
 	};
 
+	// Render
 	return (
 		<div>
 			<NewExpense onAddExpense={addExpenseHandler} />
