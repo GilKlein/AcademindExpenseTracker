@@ -4,7 +4,16 @@ import "./ExpenseDate.css";
 
 const ExpenseDate = (props) => {
 	const month = props.date.toLocaleString("en-US", { month: "long" });
+	// const day = props.date.toLocaleString("en-US", { day: "2-digit" });
+	// const day2 = props.date;
+	// const day = (day2) => (day2.setDate(day2.getDate() + 1);return day2);
+	
+	props.date.setDate(props.date.getDate() + 1);
 	const day = props.date.toLocaleString("en-US", { day: "2-digit" });
+	
+
+
+
 	const year = props.date.getFullYear();
 
 	return (
