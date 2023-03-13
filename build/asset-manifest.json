@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AcademindExpenseTracker/static/css/main.ceeb2876.css",
+    "main.js": "/AcademindExpenseTracker/static/js/main.3f1a5eb0.js",
+    "index.html": "/AcademindExpenseTracker/index.html",
+    "main.ceeb2876.css.map": "/AcademindExpenseTracker/static/css/main.ceeb2876.css.map",
+    "main.3f1a5eb0.js.map": "/AcademindExpenseTracker/static/js/main.3f1a5eb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ceeb2876.css",
+    "static/js/main.3f1a5eb0.js"
+  ]
+}
